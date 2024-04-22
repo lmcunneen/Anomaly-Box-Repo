@@ -1412,3 +1412,102 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.22-23.49.10:329][288]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.04.22-23.49.10:613][289]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.04.22-23.49.42:325][754]LogSlate: Window 'Revision Control Login' being destroyed
+[2024.04.22-23.50.36:071][536]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.22-23.50.36:142][536]LogViewport: Scene viewport resized to 1526x447, mode Windowed.
+[2024.04.22-23.50.40:221][783]LogViewport: Scene viewport resized to 1526x449, mode Windowed.
+[2024.04.22-23.50.40:238][784]LogViewport: Scene viewport resized to 1526x456, mode Windowed.
+[2024.04.22-23.50.40:277][785]LogViewport: Scene viewport resized to 1526x470, mode Windowed.
+[2024.04.22-23.50.40:315][786]LogViewport: Scene viewport resized to 1526x486, mode Windowed.
+[2024.04.22-23.50.40:345][787]LogViewport: Scene viewport resized to 1526x504, mode Windowed.
+[2024.04.22-23.50.40:374][788]LogViewport: Scene viewport resized to 1526x517, mode Windowed.
+[2024.04.22-23.50.40:399][789]LogViewport: Scene viewport resized to 1526x525, mode Windowed.
+[2024.04.22-23.50.40:428][790]LogViewport: Scene viewport resized to 1526x541, mode Windowed.
+[2024.04.22-23.50.40:461][791]LogViewport: Scene viewport resized to 1526x568, mode Windowed.
+[2024.04.22-23.50.40:492][792]LogViewport: Scene viewport resized to 1526x589, mode Windowed.
+[2024.04.22-23.50.40:518][793]LogViewport: Scene viewport resized to 1526x597, mode Windowed.
+[2024.04.22-23.50.40:545][794]LogViewport: Scene viewport resized to 1526x611, mode Windowed.
+[2024.04.22-23.50.40:570][795]LogViewport: Scene viewport resized to 1526x634, mode Windowed.
+[2024.04.22-23.50.40:623][796]LogViewport: Scene viewport resized to 1526x678, mode Windowed.
+[2024.04.22-23.50.40:650][797]LogViewport: Scene viewport resized to 1526x700, mode Windowed.
+[2024.04.22-23.50.40:700][798]LogViewport: Scene viewport resized to 1526x755, mode Windowed.
+[2024.04.22-23.50.40:751][799]LogViewport: Scene viewport resized to 1526x759, mode Windowed.
+[2024.04.22-23.50.40:815][804]LogViewport: Scene viewport resized to 1526x760, mode Windowed.
+[2024.04.22-23.50.40:839][805]LogViewport: Scene viewport resized to 1526x766, mode Windowed.
+[2024.04.22-23.50.40:875][806]LogViewport: Scene viewport resized to 1526x767, mode Windowed.
+[2024.04.22-23.50.40:905][807]LogViewport: Scene viewport resized to 1526x768, mode Windowed.
+[2024.04.22-23.50.41:043][821]LogViewport: Scene viewport resized to 1526x767, mode Windowed.
+[2024.04.22-23.50.41:063][822]LogViewport: Scene viewport resized to 1526x764, mode Windowed.
+[2024.04.22-23.50.41:098][823]LogViewport: Scene viewport resized to 1526x748, mode Windowed.
+[2024.04.22-23.50.41:127][824]LogViewport: Scene viewport resized to 1526x737, mode Windowed.
+[2024.04.22-23.50.41:153][825]LogViewport: Scene viewport resized to 1526x734, mode Windowed.
+[2024.04.22-23.50.41:227][832]LogViewport: Scene viewport resized to 1526x732, mode Windowed.
+[2024.04.22-23.50.41:242][833]LogViewport: Scene viewport resized to 1526x729, mode Windowed.
+[2024.04.22-23.50.41:277][834]LogViewport: Scene viewport resized to 1526x721, mode Windowed.
+[2024.04.22-23.50.41:299][835]LogViewport: Scene viewport resized to 1526x715, mode Windowed.
+[2024.04.22-23.50.41:324][836]LogViewport: Scene viewport resized to 1526x706, mode Windowed.
+[2024.04.22-23.50.41:350][837]LogViewport: Scene viewport resized to 1526x702, mode Windowed.
+[2024.04.22-23.50.41:505][854]LogViewport: Scene viewport resized to 1526x700, mode Windowed.
+[2024.04.22-23.50.41:522][855]LogViewport: Scene viewport resized to 1526x699, mode Windowed.
+[2024.04.22-23.50.41:571][856]LogViewport: Scene viewport resized to 1526x683, mode Windowed.
+[2024.04.22-23.50.41:596][857]LogViewport: Scene viewport resized to 1526x679, mode Windowed.
+[2024.04.22-23.50.41:621][858]LogViewport: Scene viewport resized to 1526x678, mode Windowed.
+[2024.04.22-23.50.41:860][885]LogViewport: Scene viewport resized to 1526x677, mode Windowed.
+[2024.04.22-23.50.41:876][886]LogViewport: Scene viewport resized to 1526x670, mode Windowed.
+[2024.04.22-23.50.41:923][887]LogViewport: Scene viewport resized to 1526x658, mode Windowed.
+[2024.04.22-23.50.41:949][888]LogViewport: Scene viewport resized to 1526x654, mode Windowed.
+[2024.04.22-23.50.41:973][889]LogViewport: Scene viewport resized to 1526x651, mode Windowed.
+[2024.04.22-23.50.41:996][890]LogViewport: Scene viewport resized to 1526x647, mode Windowed.
+[2024.04.22-23.50.42:148][906]LogViewport: Scene viewport resized to 1526x645, mode Windowed.
+[2024.04.22-23.50.42:165][907]LogViewport: Scene viewport resized to 1526x640, mode Windowed.
+[2024.04.22-23.50.42:199][908]LogViewport: Scene viewport resized to 1526x631, mode Windowed.
+[2024.04.22-23.50.42:224][909]LogViewport: Scene viewport resized to 1526x626, mode Windowed.
+[2024.04.22-23.50.42:623][954]LogViewport: Scene viewport resized to 1526x628, mode Windowed.
+[2024.04.22-23.50.42:639][955]LogViewport: Scene viewport resized to 1526x630, mode Windowed.
+[2024.04.22-23.50.45:912][323]LogViewport: Scene viewport resized to 1526x626, mode Windowed.
+[2024.04.22-23.50.45:939][324]LogViewport: Scene viewport resized to 1526x618, mode Windowed.
+[2024.04.22-23.50.45:962][325]LogViewport: Scene viewport resized to 1526x608, mode Windowed.
+[2024.04.22-23.50.45:986][326]LogViewport: Scene viewport resized to 1526x597, mode Windowed.
+[2024.04.22-23.50.46:013][327]LogViewport: Scene viewport resized to 1526x586, mode Windowed.
+[2024.04.22-23.50.46:037][328]LogViewport: Scene viewport resized to 1526x572, mode Windowed.
+[2024.04.22-23.50.46:059][329]LogViewport: Scene viewport resized to 1526x561, mode Windowed.
+[2024.04.22-23.50.46:087][330]LogViewport: Scene viewport resized to 1526x555, mode Windowed.
+[2024.04.22-23.50.46:109][331]LogViewport: Scene viewport resized to 1526x548, mode Windowed.
+[2024.04.22-23.50.46:134][332]LogViewport: Scene viewport resized to 1526x541, mode Windowed.
+[2024.04.22-23.50.46:157][333]LogViewport: Scene viewport resized to 1526x536, mode Windowed.
+[2024.04.22-23.50.46:205][337]LogViewport: Scene viewport resized to 1526x534, mode Windowed.
+[2024.04.22-23.50.46:221][338]LogViewport: Scene viewport resized to 1526x532, mode Windowed.
+[2024.04.22-23.50.46:252][339]LogViewport: Scene viewport resized to 1526x527, mode Windowed.
+[2024.04.22-23.50.46:275][340]LogViewport: Scene viewport resized to 1526x524, mode Windowed.
+[2024.04.22-23.50.46:299][341]LogViewport: Scene viewport resized to 1526x517, mode Windowed.
+[2024.04.22-23.50.46:324][342]LogViewport: Scene viewport resized to 1526x509, mode Windowed.
+[2024.04.22-23.50.46:346][343]LogViewport: Scene viewport resized to 1526x507, mode Windowed.
+[2024.04.22-23.50.46:488][358]LogViewport: Scene viewport resized to 1526x509, mode Windowed.
+[2024.04.22-23.50.46:504][359]LogViewport: Scene viewport resized to 1526x512, mode Windowed.
+[2024.04.22-23.50.46:845][397]LogViewport: Scene viewport resized to 1526x509, mode Windowed.
+[2024.04.22-23.50.46:862][398]LogViewport: Scene viewport resized to 1526x506, mode Windowed.
+[2024.04.22-23.50.46:915][399]LogViewport: Scene viewport resized to 1526x499, mode Windowed.
+[2024.04.22-23.50.46:964][403]LogViewport: Scene viewport resized to 1526x497, mode Windowed.
+[2024.04.22-23.50.46:999][406]LogViewport: Scene viewport resized to 1526x496, mode Windowed.
+[2024.04.22-23.50.47:024][408]LogViewport: Scene viewport resized to 1526x495, mode Windowed.
+[2024.04.22-23.50.47:071][412]LogViewport: Scene viewport resized to 1526x493, mode Windowed.
+[2024.04.22-23.50.47:096][414]LogViewport: Scene viewport resized to 1526x492, mode Windowed.
+[2024.04.22-23.50.47:118][415]LogViewport: Scene viewport resized to 1526x491, mode Windowed.
+[2024.04.22-23.50.47:141][416]LogViewport: Scene viewport resized to 1526x488, mode Windowed.
+[2024.04.22-23.50.47:163][417]LogViewport: Scene viewport resized to 1526x487, mode Windowed.
+[2024.04.22-23.50.47:388][442]LogViewport: Scene viewport resized to 1526x486, mode Windowed.
+[2024.04.22-23.50.54:878][263]LogDerivedDataCache: C:/Users/s221018/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.039 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 559 files in 936 folders with total size 3 MiB.
+[2024.04.22-23.51.04:505][163]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.22-23.51.04:606][163]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.22-23.51.04:614][164]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.22-23.51.12:206][ 58]LogContentBrowser: Attempting asset rename: NewFolder -> AnomalyBox
+[2024.04.22-23.51.12:206][ 58]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.22-23.51.17:028][506]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.22-23.51.17:046][506]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.22-23.51.17:086][508]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.22-23.51.20:052][854]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.04.22-23.51.20:052][854]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.22-23.51.22:790][105]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.22-23.51.22:809][105]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.22-23.51.22:816][106]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.22-23.51.24:850][341]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2024.04.22-23.51.24:851][341]LogContentBrowser: End creating deferred item NewFolder
