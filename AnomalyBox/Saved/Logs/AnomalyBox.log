@@ -3802,3 +3802,271 @@ Script Stack (0 frames) :
 [2024.04.23-01.44.59:592][409]LogEditorActor: Deleted Actor: StaticMeshActor
 [2024.04.23-01.44.59:609][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
 [2024.04.23-01.44.59:612][409]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.04.23-01.46.51:667][624]BlueprintLog: New page: Compile BP_Portal
+[2024.04.23-01.46.51:670][624]LogBlueprint: Error: [AssetLog] C:\Users\s221018\Documents\GitHub\Anomaly-Box-Repo\AnomalyBox\Content\AnomalyBox\Blueprints\BP_Portal.uasset: [Compiler] The current value of the ' New Transform ' pin is invalid: 'New Transform' in action 'Add Actor Local Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.04.23-01.46.51:700][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.23-01.47.12:125][749]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.23-01.47.12:129][749]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-01.47.12:129][749]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-01.47.12:131][749]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 53 ms)
+[2024.04.23-01.47.12:131][749]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.23-01.47.12:132][749]LogPlayLevel: [PlayLevel] Compiling BP_Portal before play...
+[2024.04.23-01.47.12:196][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.04.23-01.47.12:198][749]LogPlayLevel: PlayLevel: Blueprint regeneration took 66 ms (1 blueprints)
+[2024.04.23-01.47.12:198][749]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 9:47:12 pm)
+[2024.04.23-01.47.12:198][749]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-01.47.12:202][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003833s)
+[2024.04.23-01.47.12:202][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003861s)
+[2024.04.23-01.47.12:215][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.23-01.47.12:216][749]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-01.47.12:216][749]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-01.47.12:216][749]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-01.47.12:216][749]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-01.47.12:216][749]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-01.47.12:216][749]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-01.47.12:216][749]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-01.47.12:217][749]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-01.47.12:217][749]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 119 ms)
+[2024.04.23-01.47.12:217][749]LogPlayLevel: PIE: World Init took: (0.002143s)
+[2024.04.23-01.47.12:217][749]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.04.23-01.47.12:217][749]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-01.47.12:217][749]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-01.47.12:217][749]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-01.47.12:217][749]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-01.47.12:218][749]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-01.47.12:218][749]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-01.47.12:218][749]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-01.47.12:218][749]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-01.47.12:218][749]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-01.47.12:218][749]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-01.47.12:218][749]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-01.47.12:220][749]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-01.47.12:232][749]LogAudioMixer: Display: Using Audio Hardware Device 24G2W1G4 (NVIDIA High Definition Audio)
+[2024.04.23-01.47.12:232][749]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-01.47.12:232][749]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-01.47.12:232][749]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-01.47.12:233][749]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.04.23-01.47.12:233][749]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.04.23-01.47.12:235][749]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.04.23-01.47.12:235][749]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.04.23-01.47.12:235][749]LogInit: FAudioDevice initialized with ID 25.
+[2024.04.23-01.47.12:235][749]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonMap'.
+[2024.04.23-01.47.12:235][749]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.04.23-01.47.12:237][749]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-01.47.12:239][749]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-11.47.12
+[2024.04.23-01.47.12:239][749]LogWorld: Bringing up level for play took: 0.001865
+[2024.04.23-01.47.12:241][749]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.04.23-01.47.12:245][749]PIE: Server logged in
+[2024.04.23-01.47.12:246][749]PIE: Play in editor total start time 0.117 seconds.
+[2024.04.23-01.47.16:196][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-01.47.16:196][193]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-01.47.16:196][193]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-01.47.16:197][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-01.47.16:197][193]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-01.47.16:201][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-01.47.16:205][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-01.47.16:221][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-01.47.16:222][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.04.23-01.47.16:222][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.04.23-01.47.16:225][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.04.23-01.47.16:230][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.23-01.47.16:307][194]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.04.23-01.47.46:724][348]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.04.23-01.47.59:234][761]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_8:PersistentLevel.BP_Portal_C_0.PortalText1) Not currently registered. Aborting.
+[2024.04.23-01.47.59:234][761]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.BP_Portal_C_16.PortalText1) Not currently registered. Aborting.
+[2024.04.23-01.47.59:234][761]LogActorComponent: ReregisterComponent: (/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Portal_C_UAID_7C10C9431B66E2EE01_1962977273.PortalText1) Not currently registered. Aborting.
+[2024.04.23-01.47.59:234][761]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_10:PersistentLevel.BP_Portal_C_0.PortalText1) Not currently registered. Aborting.
+[2024.04.23-01.48.06:745][619]LogActorComponent: ReregisterComponent: (/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Portal_C_UAID_7C10C9431B66E2EE01_1962977273.PortalText2) Not currently registered. Aborting.
+[2024.04.23-01.48.06:745][619]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_8:PersistentLevel.BP_Portal_C_0.PortalText2) Not currently registered. Aborting.
+[2024.04.23-01.48.06:745][619]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.BP_Portal_C_16.PortalText2) Not currently registered. Aborting.
+[2024.04.23-01.48.06:745][619]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_10:PersistentLevel.BP_Portal_C_0.PortalText2) Not currently registered. Aborting.
+[2024.04.23-01.48.12:035][209]BlueprintLog: New page: Compile BP_Portal
+[2024.04.23-01.48.12:100][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.23-01.48.14:588][443]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.23-01.48.14:592][443]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-01.48.14:592][443]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-01.48.14:594][443]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 56 ms)
+[2024.04.23-01.48.14:594][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-01.48.14:594][443]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 9:48:14 pm)
+[2024.04.23-01.48.14:626][443]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-01.48.14:630][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003921s)
+[2024.04.23-01.48.14:630][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003956s)
+[2024.04.23-01.48.14:643][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.23-01.48.14:647][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-01.48.14:647][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-01.48.14:647][443]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-01.48.14:647][443]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-01.48.14:647][443]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-01.48.14:647][443]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-01.48.14:647][443]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-01.48.14:649][443]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-01.48.14:649][443]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 120 ms)
+[2024.04.23-01.48.14:649][443]LogPlayLevel: PIE: World Init took: (0.002069s)
+[2024.04.23-01.48.14:649][443]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-01.48.14:649][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-01.48.14:649][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-01.48.14:650][443]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-01.48.14:650][443]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-01.48.14:650][443]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-01.48.14:651][443]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-01.48.14:662][443]LogAudioMixer: Display: Using Audio Hardware Device 24G2W1G4 (NVIDIA High Definition Audio)
+[2024.04.23-01.48.14:662][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-01.48.14:662][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-01.48.14:662][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-01.48.14:663][443]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.04.23-01.48.14:663][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.04.23-01.48.14:664][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.04.23-01.48.14:664][443]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.04.23-01.48.14:664][443]LogInit: FAudioDevice initialized with ID 26.
+[2024.04.23-01.48.14:664][443]LogAudio: Display: Audio Device (ID: 26) registered with world 'ThirdPersonMap'.
+[2024.04.23-01.48.14:664][443]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.04.23-01.48.14:666][443]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-01.48.14:668][443]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-11.48.14
+[2024.04.23-01.48.14:669][443]LogWorld: Bringing up level for play took: 0.001796
+[2024.04.23-01.48.14:670][443]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.04.23-01.48.14:674][443]PIE: Server logged in
+[2024.04.23-01.48.14:674][443]PIE: Play in editor total start time 0.083 seconds.
+[2024.04.23-01.48.22:805][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-01.48.22:805][391]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-01.48.22:806][391]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-01.48.22:806][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-01.48.22:806][391]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-01.48.22:811][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-01.48.22:815][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-01.48.22:831][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-01.48.22:832][391]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.04.23-01.48.22:832][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.04.23-01.48.22:834][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.04.23-01.48.22:840][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.23-01.48.22:915][392]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:107][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:108][342]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo'
+[2024.04.23-01.48.38:200][342]EditorErrors: Warning: No assets to check in!
+[2024.04.23-01.49.02:042][487]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/': No such file or directory
+[2024.04.23-01.49.02:042][487]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/': No such file or directory
+[2024.04.23-01.49.02:109][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-01.49.02:185][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.23-01.49.02:204][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.04.23-01.49.02:220][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.23-01.49.02:222][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW
+[2024.04.23-01.49.02:223][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/2QISIGK5DJNQ05US8O8FXWDD91FD32405C9E12613F7285079C29A0.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset'
+[2024.04.23-01.49.02:224][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6
+[2024.04.23-01.49.02:225][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/MRHJREJ6H7USQYWF1KO8F6A37F3A294B8F1A3EBD778AB005FC0150.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset'
+[2024.04.23-01.49.02:227][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2024.04.23-01.49.02:227][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/SWSI13675DVYIZ0N4NF7Y376E7C698461ADAE57F44209B8C30DE29.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2024.04.23-01.49.02:229][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/23/LP67YSPKK6K080RG5B8MQZ
+[2024.04.23-01.49.02:229][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/LP67YSPKK6K080RG5B8MQZCED33A2946DFF8FFC6AB42940E790428.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/23/LP67YSPKK6K080RG5B8MQZ.uasset'
+[2024.04.23-01.49.02:231][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4H/U6PCKJKULWYK6LKCQ50S8T
+[2024.04.23-01.49.02:231][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/U6PCKJKULWYK6LKCQ50S8T4B7676FF4C6D2CE5DE569FAFBD8B5127.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4H/U6PCKJKULWYK6LKCQ50S8T.uasset'
+[2024.04.23-01.49.02:234][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/Q9/2OIO7QUD6YYAVQMDJ0QAVT
+[2024.04.23-01.49.02:234][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/2OIO7QUD6YYAVQMDJ0QAVTEDB660ED4311D06F3D3E39B009DAB2D8.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/Q9/2OIO7QUD6YYAVQMDJ0QAVT.uasset'
+[2024.04.23-01.49.02:236][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YB/TPZPB4BUGBGV9JLBUDCCKX
+[2024.04.23-01.49.02:236][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/TPZPB4BUGBGV9JLBUDCCKX2BB7FC1F413C582BC9871FA4406DED0F.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YB/TPZPB4BUGBGV9JLBUDCCKX.uasset'
+[2024.04.23-01.49.02:238][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/IY/B6UTPHZB1K879BEMNEOM8M
+[2024.04.23-01.49.02:238][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/B6UTPHZB1K879BEMNEOM8MEBBD65A74AF99292437BD2976AFCD37F.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/IY/B6UTPHZB1K879BEMNEOM8M.uasset'
+[2024.04.23-01.49.02:240][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/EA/08ZRWBEOW6DE1C3XSQZ5M6
+[2024.04.23-01.49.02:240][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/08ZRWBEOW6DE1C3XSQZ5M6A8485B06458D676C0C4134A8F60FC205.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/EA/08ZRWBEOW6DE1C3XSQZ5M6.uasset'
+[2024.04.23-01.49.02:242][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/O0/SIEMP03YLZKVU2W8MEGOLL
+[2024.04.23-01.49.02:242][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/SIEMP03YLZKVU2W8MEGOLLE41965EC45CED03F00EE7593C900743E.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/O0/SIEMP03YLZKVU2W8MEGOLL.uasset'
+[2024.04.23-01.49.02:244][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/H9/L3XIQOHZ3EUFRDMU087G2W
+[2024.04.23-01.49.02:244][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/L3XIQOHZ3EUFRDMU087G2W78D09BA4492E16A2B625C4BB3ED98BF0.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/H9/L3XIQOHZ3EUFRDMU087G2W.uasset'
+[2024.04.23-01.49.02:246][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DT/RP9E0L3JFPLRNIDEZLGC93
+[2024.04.23-01.49.02:246][487]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/RP9E0L3JFPLRNIDEZLGC93E87F82014BDB1391E1FE0D90E6D9F937.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DT/RP9E0L3JFPLRNIDEZLGC93.uasset'
+[2024.04.23-01.49.02:649][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 539 ms (total: 1.25 sec)
+[2024.04.23-01.49.02:652][487]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1296921264
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1481421266
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1506960267
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1561833268
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1561834269
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1674392270
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.PointLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PointLight_UAID_7C10C9431B66E2EE01_1776317272
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Game/AnomalyBox/Blueprints/BP_Portal.BP_Portal_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Portal_C_UAID_7C10C9431B66E2EE01_1962977273
+[2024.04.23-01.49.02:652][487]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E3EE01_1670997450
+[2024.04.23-01.49.03:280][538]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/': No such file or directory
+[2024.04.23-01.49.23:692][362]SourceControl: Revision control is disabled
+[2024.04.23-01.49.23:692][362]LogSlate: Window 'Revision Control Login' being destroyed
+[2024.04.23-01.49.33:945][652]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-01.49.34:024][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.04.23-01.49.34:041][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.04.23-01.49.34:056][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.04.23-01.49.34:063][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 1.37 sec)
+[2024.04.23-01.49.42:507][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.23-01.49.44:240][725]LogSlate: Window 'Save Content' being destroyed
+[2024.04.23-01.49.44:249][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-01.49.44:306][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.23-01.49.44:309][725]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/s221018/Box_B5670F46
+[2024.04.23-01.49.44:309][725]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/Box_B5670F46FE2FB56D44603DC4B52B35995EA8340F.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/ThirdPerson/Maps/_GENERATED/s221018/Box_B5670F46.uasset'
+[2024.04.23-01.49.44:451][725]LogSavePackage: Moving output files for package: /Game/AnomalyBox/Blueprints/BP_Portal
+[2024.04.23-01.49.44:452][725]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/BP_Portal29793C71434441B8C55F6B9B45F1DC67.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Blueprints/BP_Portal.uasset'
+[2024.04.23-01.49.44:453][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnomalyBox/Art/portal" FILE="../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Art/portal.uasset" SILENT=true
+[2024.04.23-01.49.44:457][725]LogSavePackage: Moving output files for package: /Game/AnomalyBox/Art/portal
+[2024.04.23-01.49.44:457][725]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/portal6661DDD44F53BFF8AFBA448351585E64.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Art/portal.uasset'
+[2024.04.23-01.49.44:463][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms (total: 1.59 sec)
+[2024.04.23-01.49.44:464][725]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.23-01.49.44:464][725]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/ThirdPerson/Maps/_GENERATED/s221018/Box_B5670F46.Box_B5670F46
+[2024.04.23-01.49.44:465][725]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AnomalyBox/Blueprints/BP_Portal.BP_Portal
+[2024.04.23-01.49.44:465][725]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/AnomalyBox/Art/portal.portal
+[2024.04.23-01.49.44:471][726]LogAutomationController: Ignoring very large delta of 2.29 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.23-01.49.52:494][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.23-01.49.54:371][848]LogSlate: Window 'Save Content' being destroyed
+[2024.04.23-01.49.54:379][848]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-01.49.54:435][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.23-01.49.54:444][848]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.65 sec)
+[2024.04.23-01.49.54:450][848]LogAutomationController: Ignoring very large delta of 2.29 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.23-01.50.01:614][449]LogSlate: Window 'Revision Control Login' being destroyed
+[2024.04.23-01.50.03:531][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.04.23-01.50.10:020][597]LogSlate: Window 'Save Content' being destroyed
+[2024.04.23-01.50.10:031][597]LogAutomationController: Ignoring very large delta of 6.52 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests

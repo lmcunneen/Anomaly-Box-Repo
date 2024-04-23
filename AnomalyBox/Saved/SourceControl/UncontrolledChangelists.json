@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/StarterContent/Audio/Collapse01.uasset"
+				"C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/StarterContent/Audio/Collapse01.uasset",
+				"C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/ThirdPerson/Maps/_GENERATED/s221018/Box_B5670F46.uasset",
+				"C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Blueprints/BP_Portal.uasset",
+				"C:/Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Art/portal.uasset"
 			]
 		}
 	]
