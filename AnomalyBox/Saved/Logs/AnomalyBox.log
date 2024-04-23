@@ -4832,3 +4832,332 @@ Script Stack (0 frames) :
 [2024.04.23-02.07.15:081][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2024.04.23-02.07.22:151][975]LogSlate: Window 'Save Content' being destroyed
 [2024.04.23-02.07.22:202][976]LogAutomationController: Ignoring very large delta of 7.14 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.23-02.08.05:108][440]Cmd: DELETE
+[2024.04.23-02.08.05:108][440]Cmd: ACTOR DELETE
+[2024.04.23-02.08.06:893][625]Cmd: DELETE
+[2024.04.23-02.08.06:893][625]Cmd: ACTOR DELETE
+[2024.04.23-02.08.08:256][761]Cmd: DELETE
+[2024.04.23-02.08.08:256][761]Cmd: ACTOR DELETE
+[2024.04.23-02.08.09:233][862]Cmd: DELETE
+[2024.04.23-02.08.09:233][862]Cmd: ACTOR DELETE
+[2024.04.23-02.08.10:388][981]Cmd: DELETE
+[2024.04.23-02.08.10:388][981]Cmd: ACTOR DELETE
+[2024.04.23-02.08.12:283][171]Cmd: DELETE
+[2024.04.23-02.08.12:283][171]Cmd: ACTOR DELETE
+[2024.04.23-02.08.48:191][341]Cmd: TRANSACTION UNDO
+[2024.04.23-02.08.48:191][341]LogEditorTransaction: Undo Group Selected
+[2024.04.23-02.08.54:397][878]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.04.23-02.08.54:705][906]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.04.23-02.08.55:711][  2]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.04.23-02.09.37:578][514]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.23-02.09.37:583][514]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-02.09.37:583][514]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-02.09.37:585][514]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 75 ms)
+[2024.04.23-02.09.37:585][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-02.09.37:586][514]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 10:09:37 pm)
+[2024.04.23-02.09.37:619][514]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-02.09.37:623][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003919s)
+[2024.04.23-02.09.37:623][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003953s)
+[2024.04.23-02.09.37:644][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.23-02.09.37:647][514]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-02.09.37:647][514]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-02.09.37:648][514]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-02.09.37:648][514]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-02.09.37:648][514]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-02.09.37:648][514]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-02.09.37:648][514]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-02.09.37:649][514]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-02.09.37:649][514]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 131 ms)
+[2024.04.23-02.09.37:649][514]LogPlayLevel: PIE: World Init took: (0.002206s)
+[2024.04.23-02.09.37:649][514]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.04.23-02.09.37:649][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-02.09.37:650][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-02.09.37:650][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-02.09.37:650][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-02.09.37:650][514]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-02.09.37:650][514]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-02.09.37:650][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-02.09.37:650][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-02.09.37:650][514]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-02.09.37:650][514]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-02.09.37:650][514]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-02.09.37:652][514]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-02.09.37:663][514]LogAudioMixer: Display: Using Audio Hardware Device 24G2W1G4 (NVIDIA High Definition Audio)
+[2024.04.23-02.09.37:663][514]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-02.09.37:664][514]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-02.09.37:664][514]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-02.09.37:664][514]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.04.23-02.09.37:664][514]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.04.23-02.09.37:666][514]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.04.23-02.09.37:666][514]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.04.23-02.09.37:666][514]LogInit: FAudioDevice initialized with ID 36.
+[2024.04.23-02.09.37:666][514]LogAudio: Display: Audio Device (ID: 36) registered with world 'ThirdPersonMap'.
+[2024.04.23-02.09.37:666][514]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.04.23-02.09.37:668][514]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-02.09.37:670][514]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-12.09.37
+[2024.04.23-02.09.37:670][514]LogWorld: Bringing up level for play took: 0.001794
+[2024.04.23-02.09.37:672][514]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.04.23-02.09.37:675][514]PIE: Server logged in
+[2024.04.23-02.09.37:676][514]PIE: Play in editor total start time 0.093 seconds.
+[2024.04.23-02.11.23:479][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-02.11.23:479][187]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-02.11.23:479][187]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-02.11.23:480][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-02.11.23:480][187]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-02.11.23:485][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-02.11.23:490][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-02.11.23:503][187]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.23-02.11.23:503][187]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.04.23-02.11.23:503][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.04.23-02.11.23:505][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.04.23-02.11.23:510][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-02.11.23:513][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.23-02.11.23:590][188]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.04.23-02.11.24:484][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.23-02.11.27:660][278]LogSlate: Window 'Save Content' being destroyed
+[2024.04.23-02.11.28:228][278]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.04.23-02.11.28:278][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-02.11.28:570][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.PackageMetaData in its package
+[2024.04.23-02.11.28:570][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E1EE01_1083625087 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/O6/PI65ETPOESG9ZGC076E93U.PackageMetaData in its package
+[2024.04.23-02.11.28:570][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1693784271 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/ZY/NIFX5JO96C8NNUG94XZ44U.PackageMetaData in its package
+[2024.04.23-02.11.28:570][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1476572265 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/SI/U3NPWOGMY251XRMFIK5W4H.PackageMetaData in its package
+[2024.04.23-02.11.28:571][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E5EE01_1182415803 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/MD/6YHKMSEYOQ3WW2SGA3E4FW.PackageMetaData in its package
+[2024.04.23-02.11.28:571][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E5EE01_2142757804 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/AL/WZU8M8ZAIVNX3AOUSKSKPQ.PackageMetaData in its package
+[2024.04.23-02.11.28:571][278]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PortalVisual_C_UAID_7C10C9431B66E6EE01_1391816982 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/QF/PLAIH9JKQM6UBURMMAQ477.PackageMetaData in its package
+[2024.04.23-02.11.28:573][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.23-02.11.28:591][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.23-02.11.28:608][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.23-02.11.28:885][278]SourceControl: Error: Updated 0 paths from the index
+[2024.04.23-02.11.29:136][278]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.04.23-02.11.29:136][278]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.04.23-02.11.29:136][278]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.04.23-02.11.29:136][278]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.04.23-02.11.29:136][278]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.04.23-02.11.29:136][278]SourceControl: rm 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset'
+[2024.04.23-02.11.29:136][278]SourceControl: rm 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset'
+[2024.04.23-02.11.29:136][278]SourceControl: rm 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset'
+[2024.04.23-02.11.29:136][278]SourceControl: rm 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset'
+[2024.04.23-02.11.29:136][278]SourceControl: rm 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset'
+[2024.04.23-02.11.29:143][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/H9/L3XIQOHZ3EUFRDMU087G2W
+[2024.04.23-02.11.29:144][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/L3XIQOHZ3EUFRDMU087G2W2BC8A5F24F4E55FE558EAE87DA835C34.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/H9/L3XIQOHZ3EUFRDMU087G2W.uasset'
+[2024.04.23-02.11.29:146][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/GP/8TTNQZDBSYS4W9AUQZX817
+[2024.04.23-02.11.29:146][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/8TTNQZDBSYS4W9AUQZX81747E025AA4466B327771F0A97C809C87C.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/GP/8TTNQZDBSYS4W9AUQZX817.uasset'
+[2024.04.23-02.11.29:148][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/IZ/D09HU5MM1E2YOH3AUZNSTQ
+[2024.04.23-02.11.29:148][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/D09HU5MM1E2YOH3AUZNSTQ252D3E8E4C9A56BF1C42E6BDE699A0E7.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/IZ/D09HU5MM1E2YOH3AUZNSTQ.uasset'
+[2024.04.23-02.11.29:150][278]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/1/RA/69S4E4GD7V7AADA7INOWG3
+[2024.04.23-02.11.29:150][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/69S4E4GD7V7AADA7INOWG3D5A5EC474128685EAC860C8A9021FCC4.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/1/RA/69S4E4GD7V7AADA7INOWG3.uasset'
+[2024.04.23-02.11.29:154][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/23/LP67YSPKK6K080RG5B8MQZ
+[2024.04.23-02.11.29:154][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/LP67YSPKK6K080RG5B8MQZ5810BE48435D351210FC60BB304B969E.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/23/LP67YSPKK6K080RG5B8MQZ.uasset'
+[2024.04.23-02.11.29:156][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4H/U6PCKJKULWYK6LKCQ50S8T
+[2024.04.23-02.11.29:156][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/U6PCKJKULWYK6LKCQ50S8T050C69434439945D0335EEB76FB77388.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4H/U6PCKJKULWYK6LKCQ50S8T.uasset'
+[2024.04.23-02.11.29:158][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/Q9/2OIO7QUD6YYAVQMDJ0QAVT
+[2024.04.23-02.11.29:158][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/2OIO7QUD6YYAVQMDJ0QAVTCD954B914C743D0556B645AC0BE8E2CB.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/Q9/2OIO7QUD6YYAVQMDJ0QAVT.uasset'
+[2024.04.23-02.11.29:160][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YB/TPZPB4BUGBGV9JLBUDCCKX
+[2024.04.23-02.11.29:160][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/TPZPB4BUGBGV9JLBUDCCKX2CEAE54C43455A67E87192858BB7CEC1.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YB/TPZPB4BUGBGV9JLBUDCCKX.uasset'
+[2024.04.23-02.11.29:162][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/IY/B6UTPHZB1K879BEMNEOM8M
+[2024.04.23-02.11.29:162][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/B6UTPHZB1K879BEMNEOM8M2C1C0E6C41E3BFF6AB88A7939845B73F.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/IY/B6UTPHZB1K879BEMNEOM8M.uasset'
+[2024.04.23-02.11.29:164][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/EA/08ZRWBEOW6DE1C3XSQZ5M6
+[2024.04.23-02.11.29:164][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/08ZRWBEOW6DE1C3XSQZ5M6FBCFB7DC4EECFC982EFE7A98FDA1CBC1.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/EA/08ZRWBEOW6DE1C3XSQZ5M6.uasset'
+[2024.04.23-02.11.29:166][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DT/RP9E0L3JFPLRNIDEZLGC93
+[2024.04.23-02.11.29:166][278]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/RP9E0L3JFPLRNIDEZLGC93B94D122B481C8A5D41024F9AA1DD735E.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DT/RP9E0L3JFPLRNIDEZLGC93.uasset'
+[2024.04.23-02.11.29:303][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.02 sec (total: 3.66 sec)
+[2024.04.23-02.11.29:356][278]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Game/AnomalyBox/Blueprints/BP_Portal.BP_Portal_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Portal_C_UAID_7C10C9431B66E2EE01_1962977273
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Game/AnomalyBox/Blueprints/BP_PortalVisual.BP_PortalVisual_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PortalVisual_C_UAID_7C10C9431B66E6EE01_1404186983
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Game/AnomalyBox/Blueprints/BP_PortalVisual.BP_PortalVisual_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PortalVisual_C_UAID_7C10C9431B66E6EE01_1526966984
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_D1A9EAE6-4E998BA4-68F788B1-6C6D78B0
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1296921264
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1481421266
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1506960267
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1561833268
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1561834269
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E2EE01_1674392270
+[2024.04.23-02.11.29:356][278]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_7C10C9431B66E3EE01_1670997450
+[2024.04.23-02.11.29:372][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.04.23-02.11.29:379][279]LogAutomationController: Ignoring very large delta of 4.92 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.23-02.11.29:974][319]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.04.23-02.11.29:974][319]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.04.23-02.11.29:974][319]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.04.23-02.11.29:974][319]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.04.23-02.11.29:974][319]SourceControl: Error: warning: could not open directory 'AnomalyBox/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.04.23-02.12.04:764][826]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.23-02.12.04:808][826]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.23-02.12.04:813][826]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.23-02.12.04:822][827]LogAutomationController: Ignoring very large delta of 8.32 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.23-02.12.04:829][827]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 0 (Found bundle for host: 0x73096160f90 [serially])
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 6 (Closing connection)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC01DD927-44CB-CBEE-89AD-189776A828AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=44b09dd7470659a6b6cfe0a47f1d36e0%7C7e5239b3c00744c1b26bd05651e5d201%7C939d3884-1fb1-4829-a865-a2c4424c7bb1&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 9 (  Trying 52.0.83.40:443...)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.0.83.40) port 443)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 25 (Server certificate:)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 34 (Closing connection)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: 0000073133311900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.23-02.12.05:654][899]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC01DD927-44CB-CBEE-89AD-189776A828AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=44b09dd7470659a6b6cfe0a47f1d36e0%7C7e5239b3c00744c1b26bd05651e5d201%7C939d3884-1fb1-4829-a865-a2c4424c7bb1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.23-02.12.35:907][257]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1690)].
+[2024.04.23-02.12.35:907][257]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_LevelWi
+[2024.04.23-02.12.36:026][257]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.23-02.12.36:048][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.23-02.12.36:050][257]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.019
+[2024.04.23-02.12.36:051][257]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AnomalyBox/Art/frame_00_delay-0_05s_Auto7
+[2024.04.23-02.12.36:051][257]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/frame_00_delay-0_05s_Auto7AE400C524F90D3EF6A176CA8A86FEDFA.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/Autosaves/Game/AnomalyBox/Art/frame_00_delay-0_05s_Auto7.uasset'
+[2024.04.23-02.12.36:051][257]LogFileHelpers: Auto-saving content packages took 0.001
+[2024.04.23-02.12.42:106][774]LogContentBrowser: Attempting asset rename: BP_LevelWi -> BP_LevelWin
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.SKEL_BP_LevelWin_C:UserConstructionScript' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.SKEL_BP_LevelWin_C' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin_C' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin:EventGraph.K2Node_Event_0' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin:EventGraph.K2Node_Event_1' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:658][774]LogMetaData: Removing '/Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin:EventGraph.K2Node_Event_2' ref from Metadata '/Game/AnomalyBox/Blueprints/BP_LevelWi.PackageMetaData'
+[2024.04.23-02.12.42:662][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-02.12.42:723][774]LogSavePackage: Moving output files for package: /Game/AnomalyBox/Blueprints/BP_LevelWin
+[2024.04.23-02.12.42:723][774]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/BP_LevelWin541C61CA44ADE0251B68EFA5E917D3F9.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Blueprints/BP_LevelWin.uasset'
+[2024.04.23-02.12.42:857][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 3.86 sec)
+[2024.04.23-02.12.42:960][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.04.23-02.12.42:978][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.23-02.12.42:994][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.04.23-02.12.42:996][774]AssetCheck: New page: Asset Save: BP_LevelWin
+[2024.04.23-02.12.42:996][774]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin
+[2024.04.23-02.12.43:847][846]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin
+[2024.04.23-02.12.43:848][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-02.12.43:848][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-02.12.43:984][846]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.04.23-02.13.16:347][550]LogEditorTransaction: Undo Modify Component Scale
+[2024.04.23-02.13.50:724][219]LogSlate: Window 'Save Asset As' being destroyed
+[2024.04.23-02.14.06:918][219]LogSlate: Took 0.005101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.04.23-02.14.45:356][219]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2024.04.23-02.14.46:168][219]LogAutomationController: Ignoring very large delta of 65.40 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: ================================================
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Total job queries 163, among them cache hits 45 (27.61%)
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Tracking 118 distinct input hashes that result in 99 distinct outputs (83.90%)
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: RAM used: 3.19 MiB of 1.60 GiB budget. Usage: 0.19%
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Shaders Compiled: 118
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Jobs assigned 118, completed 118 (100%)
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Average time worker was idle: 698.16 s
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Time job spent in pending queue: average 1.74 s, longest 7.63 s
+[2024.04.23-02.14.46:683][246]LogShaderCompilers: Display: Job execution time: average 2.79 s, max 7.31 s
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Job life time (pending + execution): average 4.53 s, max 8.75
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Shader code size: average 45.677 KiB, min 23.379 KiB, max 72.324 KiB
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.35 s
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.93 jobs/batch
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Average processing rate: 10.40 jobs/sec
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Total thread time: 64.834 s
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Total thread preprocess time: 3.424 s
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Percentage time preprocessing: 5.28%
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Effective parallelization: 5.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    4 times, average 0.90 sec, max 1.46 sec, min 0.33 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 0.90 sec, max 1.44 sec, min 0.36 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 0.87 sec, max 1.39 sec, min 0.34 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 0.85 sec, max 1.37 sec, min 0.35 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    4 times, average 0.85 sec, max 1.37 sec, min 0.34 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.83% of total time (compiled    5 times, average 0.76 sec, max 1.41 sec, min 0.35 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.81% of total time (compiled    5 times, average 0.75 sec, max 1.33 sec, min 0.35 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.76% of total time (compiled    6 times, average 0.62 sec, max 1.31 sec, min 0.19 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 5.71% of total time (compiled    5 times, average 0.74 sec, max 1.33 sec, min 0.33 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ - 5.57% of total time (compiled    4 times, average 0.90 sec, max 1.46 sec, min 0.33 sec)
+[2024.04.23-02.14.46:684][246]LogShaderCompilers: Display: ================================================
+[2024.04.23-02.14.47:343][314]LogNiagara: Compiling System NiagaraSystem /Game/AnomalyBox/Art/WinParticle.WinParticle took 1.603567 sec (time since issued), 1.332260 sec (combined shader worker time).
+[2024.04.23-02.14.47:458][315]LogNiagara: Warning: For some reason we are reporting that /Game/AnomalyBox/Art/WinParticle.WinParticle:Fountain.SpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2024.04.23-02.14.47:459][315]LogNiagara: Warning: For some reason we are reporting that /Game/AnomalyBox/Art/WinParticle.WinParticle:Fountain.UpdateScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2024.04.23-02.14.47:477][315]LogNiagara: Warning: For some reason we are reporting that /Game/AnomalyBox/Art/WinParticle.WinParticle:SystemSpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2024.04.23-02.15.04:758][324]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/AnomalyBox/Art/WinParticle.WinParticle
+[2024.04.23-02.15.05:151][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-02.15.05:151][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-02.15.05:235][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-02.15.05:235][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-02.15.05:377][324]LogViewport: Scene viewport resized to 378x423, mode Windowed.
+[2024.04.23-02.15.06:059][368]LogNiagara: Compiling System NiagaraSystem /Game/AnomalyBox/Art/WinParticle.WinParticle took 1.157527 sec (time since issued), 1.072232 sec (combined shader worker time).
+[2024.04.23-02.15.06:181][375]101852_WinParticle_MessageLog: System successfully compiled.
+[2024.04.23-02.15.15:917][452]101852_WinParticle_MessageLog: System compile status unknown.
+[2024.04.23-02.15.16:488][510]LogNiagara: Compiling System NiagaraSystem /Game/AnomalyBox/Art/WinParticle.WinParticle took 0.717661 sec (time since issued), 0.689357 sec (combined shader worker time).
+[2024.04.23-02.15.17:923][672]101852_WinParticle_MessageLog: System successfully compiled.
+[2024.04.23-02.15.20:783][ 14]LogViewport: Scene viewport resized to 381x423, mode Windowed.
+[2024.04.23-02.15.20:804][ 15]LogViewport: Scene viewport resized to 387x423, mode Windowed.
+[2024.04.23-02.15.20:826][ 16]LogViewport: Scene viewport resized to 392x423, mode Windowed.
+[2024.04.23-02.15.20:857][ 17]LogViewport: Scene viewport resized to 409x423, mode Windowed.
+[2024.04.23-02.15.20:878][ 18]LogViewport: Scene viewport resized to 425x423, mode Windowed.
+[2024.04.23-02.15.20:902][ 19]LogViewport: Scene viewport resized to 437x423, mode Windowed.
+[2024.04.23-02.15.20:932][ 20]LogViewport: Scene viewport resized to 451x423, mode Windowed.
+[2024.04.23-02.15.20:954][ 21]LogViewport: Scene viewport resized to 455x423, mode Windowed.
+[2024.04.23-02.15.20:977][ 22]LogViewport: Scene viewport resized to 464x423, mode Windowed.
+[2024.04.23-02.15.20:999][ 23]LogViewport: Scene viewport resized to 473x423, mode Windowed.
+[2024.04.23-02.15.21:021][ 24]LogViewport: Scene viewport resized to 483x423, mode Windowed.
+[2024.04.23-02.15.21:043][ 25]LogViewport: Scene viewport resized to 485x423, mode Windowed.
+[2024.04.23-02.15.21:066][ 26]LogViewport: Scene viewport resized to 487x423, mode Windowed.
+[2024.04.23-02.15.21:095][ 28]LogViewport: Scene viewport resized to 490x423, mode Windowed.
+[2024.04.23-02.15.21:424][ 66]LogViewport: Scene viewport resized to 487x423, mode Windowed.
+[2024.04.23-02.15.21:445][ 67]LogViewport: Scene viewport resized to 486x423, mode Windowed.
+[2024.04.23-02.15.21:467][ 68]LogViewport: Scene viewport resized to 482x423, mode Windowed.
+[2024.04.23-02.15.25:962][603]LogViewport: Scene viewport resized to 482x425, mode Windowed.
+[2024.04.23-02.15.25:983][604]LogViewport: Scene viewport resized to 482x433, mode Windowed.
+[2024.04.23-02.15.26:006][605]LogViewport: Scene viewport resized to 482x441, mode Windowed.
+[2024.04.23-02.15.26:028][606]LogViewport: Scene viewport resized to 482x449, mode Windowed.
+[2024.04.23-02.15.26:053][607]LogViewport: Scene viewport resized to 482x460, mode Windowed.
+[2024.04.23-02.15.26:077][608]LogViewport: Scene viewport resized to 482x471, mode Windowed.
+[2024.04.23-02.15.26:100][609]LogViewport: Scene viewport resized to 482x476, mode Windowed.
+[2024.04.23-02.15.26:124][610]LogViewport: Scene viewport resized to 482x484, mode Windowed.
+[2024.04.23-02.15.26:146][611]LogViewport: Scene viewport resized to 482x494, mode Windowed.
+[2024.04.23-02.15.26:172][612]LogViewport: Scene viewport resized to 482x506, mode Windowed.
+[2024.04.23-02.15.26:195][613]LogViewport: Scene viewport resized to 482x513, mode Windowed.
+[2024.04.23-02.15.26:218][614]LogViewport: Scene viewport resized to 482x525, mode Windowed.
+[2024.04.23-02.15.26:255][615]LogViewport: Scene viewport resized to 482x535, mode Windowed.
+[2024.04.23-02.15.26:273][616]LogViewport: Scene viewport resized to 482x539, mode Windowed.
+[2024.04.23-02.15.26:300][617]LogViewport: Scene viewport resized to 482x544, mode Windowed.
+[2024.04.23-02.15.26:326][618]LogViewport: Scene viewport resized to 482x549, mode Windowed.
+[2024.04.23-02.15.26:354][619]LogViewport: Scene viewport resized to 482x551, mode Windowed.
+[2024.04.23-02.15.26:381][620]LogViewport: Scene viewport resized to 482x553, mode Windowed.
+[2024.04.23-02.15.26:404][621]LogViewport: Scene viewport resized to 482x556, mode Windowed.
+[2024.04.23-02.15.26:445][622]LogViewport: Scene viewport resized to 482x563, mode Windowed.
+[2024.04.23-02.15.26:468][623]LogViewport: Scene viewport resized to 482x566, mode Windowed.
+[2024.04.23-02.15.26:518][624]LogViewport: Scene viewport resized to 482x578, mode Windowed.
+[2024.04.23-02.15.26:540][625]LogViewport: Scene viewport resized to 482x585, mode Windowed.
+[2024.04.23-02.15.26:590][626]LogViewport: Scene viewport resized to 482x607, mode Windowed.
+[2024.04.23-02.15.26:633][627]LogViewport: Scene viewport resized to 482x615, mode Windowed.
+[2024.04.23-02.15.26:660][628]LogViewport: Scene viewport resized to 482x616, mode Windowed.
+[2024.04.23-02.15.33:700][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.23-02.15.35:825][461]LogSlate: Window 'Save Content' being destroyed
+[2024.04.23-02.15.35:945][461]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-02.15.35:999][461]LogSavePackage: Moving output files for package: /Game/AnomalyBox/Blueprints/BP_LevelWin
+[2024.04.23-02.15.36:000][461]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/BP_LevelWinF8DFCB95495E550EB5FE69AF0C86ED3E.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Blueprints/BP_LevelWin.uasset'
+[2024.04.23-02.15.36:001][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnomalyBox/Art/WinParticle" FILE="../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Art/WinParticle.uasset" SILENT=true
+[2024.04.23-02.15.36:032][461]LogSavePackage: Moving output files for package: /Game/AnomalyBox/Art/WinParticle
+[2024.04.23-02.15.36:032][461]LogSavePackage: Moving '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Saved/WinParticleFE49F5624140A89DBF4470BEEDD6D200.tmp' to '../../../../../../Users/s221018/Documents/GitHub/Anomaly-Box-Repo/AnomalyBox/Content/AnomalyBox/Art/WinParticle.uasset'
+[2024.04.23-02.15.36:158][461]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 4.07 sec)
+[2024.04.23-02.15.36:160][461]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.23-02.15.36:160][461]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AnomalyBox/Blueprints/BP_LevelWin.BP_LevelWin
+[2024.04.23-02.15.36:160][461]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/AnomalyBox/Art/WinParticle.WinParticle
+[2024.04.23-02.15.36:170][461]LogAutomationController: Ignoring very large delta of 2.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
